@@ -47,6 +47,10 @@ public class faculty extends person {
 
     @Override
     public void display() {
+        System.out.println("faculty id " + getId());
+        System.out.println("faculty designation is  " + getDesignatiom());
+        System.out.println("faculty specialization is " + getSpecialization());
+        System.out.println("faculty id " + getSalary());
 
     }
 }
